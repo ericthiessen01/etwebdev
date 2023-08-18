@@ -47,29 +47,17 @@ const About = () => {
           >
             <p className="hidden md:block text-[18px] text-secondary leading-7 mb-4 sm:w-[100%] px-4 md:px-0">
               {/* Desktop */}
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae, totam earum. Minus deleniti repellat id! Ratione quia
-              eum, explicabo quos eos magni vel corporis voluptatibus, inventore
-              doloremque aliquam pariatur recusandae.<br/><br/>
+              Welcome to ET Web Dev, your trusted partner in bespoke web solutions. Every project here is a personal endeavor, crafted with dedication, passion, and a deep understanding of the digital world. As a one-person team, I ensure that each client receives undivided attention and a unique touch that only a dedicated web artisan can offer.<br/><br/>
 
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae, totam earum. Minus deleniti repellat id! Ratione quia
-              eum, explicabo quos eos magni vel corporis voluptatibus, inventore
-              doloremque aliquam pariatur recusandae.<br/><br/>
+              My mission at ET Web Dev is simple: to help businesses thrive in the online realm. Having transformed numerous visions into digital realities, I understand the nuances of the web and the stories brands wish to tell. Partner with me, and together, we'll weave your digital narrative.<br/><br/>
             </p>
 
              {/* Mobile */}
 
-            <p class="mt-3 text-secondary text-[17px] max-w-6xl leading-[30px] text-center justify-center md:hidden">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repudiandae, totam earum. Minus deleniti repellat id! Ratione quia
-            eum, explicabo quos eos magni vel corporis voluptatibus, inventore
-            doloremque aliquam pariatur recusandae.<br/><br/>
+            <p className="mt-3 text-secondary text-[17px] max-w-6xl leading-[30px] text-center justify-center md:hidden">
+            Welcome to ET Web Dev, your trusted partner in bespoke web solutions. Every project here is a personal endeavor, crafted with dedication, passion, and a deep understanding of the digital world. As a one-person team, I ensure that each client receives undivided attention and a unique touch that only a dedicated web artisan can offer.<br/><br/>
 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repudiandae, totam earum. Minus deleniti repellat id! Ratione quia
-            eum, explicabo quos eos magni vel corporis voluptatibus, inventore
-            doloremque aliquam pariatur recusandae.
+            My mission at ET Web Dev is simple: to help businesses thrive in the online realm. Having transformed numerous visions into digital realities, I understand the nuances of the web and the stories brands wish to tell. Partner with me, and together, we'll weave your digital narrative.
            </p>
           </motion.div>
         </motion.div>

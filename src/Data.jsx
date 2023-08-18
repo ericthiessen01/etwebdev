@@ -24,11 +24,11 @@ export const heroIcons = [
 
 export const footerSocials = [<BsFacebook />, <BsInstagram />, <BsTwitter />];
 export const footerContacts = [
-  {
-    id: 1,
-    icon: <HiOutlinePhone />,
-    text: "+000-000-000-000",
-  },
+  // {
+  //   id: 1,
+  //   icon: <HiOutlinePhone />,
+  //   text: "+000-000-000-000",
+  // },
   {
     id: 2,
     icon: <HiOutlineMail />,
@@ -63,6 +63,11 @@ export const mainMenu = [
   },
 ];
 
-export const explores = ["Term & conditions", "privacy policy", "Delivery policy", "Refund Policy",];
+export const explores = [
+  "Term & conditions", 
+  "privacy policy", 
+  // "Delivery policy", 
+  // "Refund Policy",
+];
 
 //export const payements = [payment1, payment2, payment3];

@@ -202,9 +202,9 @@ import {
   
   const projects = [
     {
-      name: "Lorem ipsum",
+      name: "Web Design",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, totam earum. Minus deleniti repellat id! Ratione quia eum, explicabo quos eos magni vel corporis voluptatibus, inventore doloremque aliquam pariatur recusandae.",
+        "Your website is the face of your brand online, and it deserves a touch of personal craftsmanship. From intuitive UI/UX to mobile-responsive designs, I design sites that are not only captivating but also primed for conversion.",
       tags: [
         {
           name: "react",
@@ -223,9 +223,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Lorem ipsum",
+      name: "Web App Development",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, totam earum. Minus deleniti repellat id! Ratione quia eum, explicabo quos eos magni vel corporis voluptatibus, inventore doloremque aliquam pariatur recusandae.",
+        "Venture into the digital domain with robust, responsive, and dynamic web applications tailored just for you. Leveraging the latest frameworks and technologies, I deliver applications that are efficient, user-friendly, and aligned with your business objectives.",
       tags: [
         {
           name: "react",
@@ -248,9 +248,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Lorem ipsum",
+      name: "Managed Hosting",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, totam earum. Minus deleniti repellat id! Ratione quia eum, explicabo quos eos magni vel corporis voluptatibus, inventore doloremque aliquam pariatur recusandae.",
+        "Technicalities shouldn't bog you down. My managed hosting solutions ensure your website remains up, secure, and running seamlessly. With me at the helm, you get optimum uptime and peace of mind.",
       tags: [
         {
           name: "nextjs",

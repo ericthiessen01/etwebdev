@@ -16,9 +16,8 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white text-center`}>
             ET <span className='text-[#915EFF]'>Web Dev</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100 text-center`}>
-           Lorem ipsum dolor sit amet<br className='sm:block hidden' />
-           Aenean congue in nunc a egestas feugiat lacus est. 
+          <p className={`${styles.heroSubText} my-2 text-white-100 text-center`}>
+           Web development that's out of this world
           </p>
           <div className="text-center">
           <button className="mt-4 px-4 py-2 bg-[#915EFF] text-white rounded-md shadow-md hover:bg-opacity-80 transition duration-200 mb-28"><a href="#about">Learn More</a></button>

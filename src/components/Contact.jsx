@@ -21,22 +21,22 @@ const ContactForm = () => {
       budget: formData.get("budget"),
     };
 
-    emailjs.send(
-      "service_5ok7vuw",
-      "template_nklasyk",
-      data,
-      "Nygu5m9DMbPyVXcf4"
-    );
+    // emailjs.send(
+    //   "service_5ok7vuw",
+    //   "template_nklasyk",
+    //   data,
+    //   "Nygu5m9DMbPyVXcf4"
+    // );
 
     emailjs
       .send(
-        "service_5ok7vuw",
-        "template_nklasyk",
+        "service_06m9q68",
+        "template_ha9jlk9",
         {
           ...data,
           // sent: a ? "Sent to them" : "Just me",
         },
-        "Nygu5m9DMbPyVXcf4"
+        "0uMS-8_7OtLGAxhgS"
       )
       .then(
         (result) => {

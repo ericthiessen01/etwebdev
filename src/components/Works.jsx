@@ -81,7 +81,7 @@ const Works = () => {
             variants={fadeIn("", "", 0.1, 1)}
             className='mt-3 text-secondary text-[17px] max-w-6xl leading-[30px] text-center justify-center'
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, totam earum. Minus deleniti repellat id! Ratione quia eum, explicabo quos eos magni vel corporis voluptatibus, inventore doloremque aliquam pariatur recusandae.Minus deleniti repellat id! Ratione quia eum, explicabo quos eos magni vel corporis voluptatibus, inventore doloremque aliquam pariatur recusandae.
+            At ET Web Dev, I offer a tailored suite of services designed to elevate your online presence. My bespoke solutions ensure your brand stands out, engages audiences, and remains both scalable and secure.
           </motion.p>
         </div>
       </div>

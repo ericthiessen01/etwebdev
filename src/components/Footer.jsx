@@ -13,12 +13,10 @@ const Footer = () => {
           <div>
             <div className="text-xl font-semibold mb-3">ET Web Dev</div>
             <p className="text-[1rem] mb-3">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
-              asperiores, laboriosam qui labore eveniet ut iusto culpa animi
-              officiis quo?
+            Your personal web artisan, crafting each digital journey with care and precision. Connect with me for a uniquely tailored web solution.
             </p>
             <div className="flex items-center gap-4">
-              <span className="">Follow Us</span>
+              {/* <span className="">Follow Us</span>
               <div className="h-[2px] w-12 bg-white"></div>
               {footerSocials.map((footerSocial, index) => {
                 return (
@@ -26,11 +24,11 @@ const Footer = () => {
                     <a href="#">{footerSocial}</a>
                   </div>
                 );
-              })}
+              })} */}
             </div>
           </div>
           <div className="grid grid-cols-2">
-            <div>
+            {/* <div>
               <h3 className="font-semibold text-[1.1rem] mb-4">Main Menu</h3>
               {mainMenu.map((menu) => {
                 return (
@@ -39,8 +37,8 @@ const Footer = () => {
                   </div>
                 );
               })}
-            </div>
-            <div className="">
+            </div> */}
+            {/* <div className="">
               <h3 className="font-semibold text-[1.1rem]  mb-4">Important Link</h3>
               {explores.map((explore, index) => {
                 return (
@@ -49,9 +47,19 @@ const Footer = () => {
                   </div>
                 );
               })}
-            </div>
+            </div> */}
           </div>
           <div className="">
+            <h3 className="font-semibold text-[1.1rem] mb-4">Main Menu</h3>
+            {mainMenu.map((menu) => {
+              return (
+                <div className="text-[1rem] mb-2" key={menu.id}>
+                  <a href={`#${menu.href}`}>{menu.text}</a>
+                </div>
+              );
+            })}
+          </div>
+          {/* <div className="">
             <h3 className="font-semibold text-[1.1rem] mb-4">Contact</h3>
             {footerContacts.map((footerContact) => {
               return (
@@ -64,7 +72,7 @@ const Footer = () => {
                 </div>
               );
             })}
-          </div>
+          </div> */}
         </div>
         <div className="h-[1px] w-[100%] mb-10 bg-white"></div>
         <div className="flex flex-wrap justify-center gap-4 pb-8">
