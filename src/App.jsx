@@ -19,7 +19,7 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <BrowserRouter>
        
-          <main className='relative z-0 bg-primary'>
+          <main className='relative z-0 bg-primary min-w-[360px]'>
             <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center relative z-0'>
               <Navbar />
               <Hero />

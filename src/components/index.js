@@ -7,7 +7,6 @@ import Works from './Works';
 import Contact from './Contact';
 //import Veba from './Veba';
 
-import HireMe from './HireMe';
 import Footer from './Footer';
 import FooterTop from './FooterTop';
 
@@ -21,7 +20,6 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas,
-  HireMe,
   Footer,
   FooterTop,
   //Veba,
