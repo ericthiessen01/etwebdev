@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import { About, Contact,  Hero, Navbar, Works, StarsCanvas, HireMe, Footer, FooterTop } from "./components";
+import { About, Contact,  Hero, Navbar, Works, StarsCanvas, Footer, FooterTop } from "./components";
 import './App.css';
 import { ThemeProvider } from "styled-components";
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
